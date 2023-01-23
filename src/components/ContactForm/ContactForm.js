@@ -27,7 +27,7 @@ export const ContactForm = ({ onSubmit }) => {
   };
 
   return (
-    <Form onSubmit={handleSubmit}>
+    <Form onSubmit={handleSubmit} autoComplete="off">
       <Label>
         Name
         <InputForm
